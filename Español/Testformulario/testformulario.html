@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>Test formulario</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" type="text/css" href="css/style.css" />
+
+	</head>
+	<body>
+		<div id="contenedor" >
+			<div id="paginadeescritorio">
+				<div id="fondocolor"></div>
+				<div id="formulariofondo">
+                        <h1 id="cuerpoformulario">Formulario de contacto</h1>
+                        <form id="cuerpoformulario" method="post"> 
+                            <p>
+                                <b>Nombre: </b><input type="text" id="nombre" name="Nombre" required="" placeholder="* Su nombre aqui"> 
+                            </p>
+
+                            <p>
+                                <b>Apellidos: </b><input type="text" name="Apellidos" id="apellidos" required="" placeholder="* Sus apellidos aqui">
+                            </p>
+
+                            <p>
+                               <b>Email: </b> <input type="email" id="email" required=""placeholder="* Su email aqui">
+
+                            <p>
+                                <b>Direción: </b><input type="text" name="Direccion" id="direccion" required="" placeholder="* Su direcion">
+                            </p>
+
+                            <p>
+                                <b>Teléfono: </b> <input type="tel" name="telefono"id="telefono" required="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="* Telefono de contacto">
+                                <small>Formato: 123-45-67-89 (Escribir los "-")</small>
+                            </p>
+
+                            <p id="empresa">Rellenar el siguiente campo en caso de ser una empresa u autonomo:
+                                <br>
+                                <b>NIF: </b><input type="text" name="NIF" id="empresainput" placeholder=" nº de identificaión fiscal">
+                            </p>
+
+                            <p><b> Elija el dia de para la cita: </b> <input type="date" id="cita" min="2021-01-01">
+                            </p>
+
+                            <p><b>Seleciona el tipo de consulta: </b></p>
+                                <p>
+                                    Diseño web: <input type="checkbox"id="check1"><br>
+                                    Base de datos: <input type="checkbox" id="check2">
+                                </p>
+
+                            <p><b>Opciones de contacto: </b></p>
+                            <p>
+                                Atención telefonica: <input type="radio"id="radio1">
+                                <br>
+                                Atención via email: <input type="radio"id="radio2">
+                            </p>
+
+                            <p>
+                            <b>URL: </b> <input type="url" placeholder="Direción URL"id="url">
+                            </p>
+
+                            <p>
+                                <b>Suba un archivo: </b> <input type="file"id="file">
+                            </p>
+
+                            <p><b>Describenos el problema o el motivo de contacto</b></p>
+                                <textarea cols="30" rows="10" id="text"style="margin: 0px; width: 1310px; height: 260px;"></textarea>
+                            <br>
+                            <input id="botonborrar" id="borrar"type="reset" value="Borrar información">
+                            <small>Todos los campos con "<b>*</b>" son obligatorios</small>
+                            <br><br>
+                            <input id="botonenviar"type="submit" id="enviar" value="Enviar datos">
+                        </form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
