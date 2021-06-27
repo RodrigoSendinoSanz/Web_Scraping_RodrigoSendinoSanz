@@ -1,5 +1,5 @@
-# Web scraping <img src="" width="28px" alt="icono">
-<img src="" alt="cabecera">
+# Web scraping <img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/GitHub/iconogithub.png" width="28px" alt="icono">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/GitHub/headergithub.png" alt="cabecera">
 
 Three web scrapping projects with pupperier/Tres proyectos de web scrapping con pupperier
 
@@ -18,11 +18,11 @@ Choose the folder in your language/Elija la carpeta en su idioma
      	- [Development data](#development-data)
 
 ## Pictures
-<img src="" alt="info1">
-<img src="" alt="info2">
-<img src="" alt="peliculas">
-<img src="" alt="amazon">
-<img src="" alt="formulario">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/GitHub/webscraping1.PNG" alt="info1">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/GitHub/webscraping2.PNG" alt="info2">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/Espa%C3%B1ol/Peliculas%20web%20scraping/pelicula1.jpg" alt="peliculas">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/Espa%C3%B1ol/Amazon%20web%20scraping/amazon3.jpg" alt="amazon">
+<img src="https://github.com/RodrigoSendinoSanz/Web_Scraping_RodrigoSendinoSanz/blob/main/Espa%C3%B1ol/Testformulario/test2.jpg" alt="formulario">
 
 ## Español
 ## Descripción
